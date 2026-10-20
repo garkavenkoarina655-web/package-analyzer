@@ -1,0 +1,10 @@
+[package]
+name = "my_super_project"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = "1.0"
+tokio = { version = "1.28", features = ["full"] }
+rand = "0.8.5"
+reqwest = "0.11"

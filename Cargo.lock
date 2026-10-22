@@ -1,0 +1,39 @@
+version = 3
+
+[[package]]
+name = "my_app"
+version = "0.1.0"
+dependencies = [
+ "serde",
+ "tokio",
+]
+
+[[package]]
+name = "serde"
+version = "1.0.0"
+dependencies = [
+ "serde_derive",
+]
+
+[[package]]
+name = "serde_derive"
+version = "1.0.0"
+dependencies = []
+
+[[package]]
+name = "tokio"
+version = "1.0.0"
+dependencies = [
+ "mio",
+ "test_package",
+]
+
+[[package]]
+name = "mio"
+version = "0.8.0"
+dependencies = []
+
+[[package]]
+name = "test_package"
+version = "1.0.0"
+dependencies = []

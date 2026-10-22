@@ -1,0 +1,7 @@
+A: B, C, TEST_PACKAGE
+B: D, E
+C: F
+D:
+E: F, A
+F:
+TEST_PACKAGE: X, Y
